@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2BKBJJ498"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-Z2BKBJJ498');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>t.d</title>
+    <base href="/">
+    <style>
+        * {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 599px) {
+
+            .centered {
+                width: 85%;
+                height: 500px;
+                margin: 50px auto 0;
+            }
+
+        }
+
+        @media (min-width: 600px) {
+
+            .centered {
+                width: 60%;
+                height: 500px;
+                margin: 50px auto 0;
+
+                text-align: justify;
+            }
+
+        }
+
+        a {
+            color: #25536D
+        }
+
+        h2 {
+            text-align: center;
+            justify-items: center;
+        }
+
+        hr {
+            border: solid #ddd;
+            border-width: 1px 0 0;
+            margin: 30px auto
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        .titleLeft {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        .titleRight {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centered">
+        <h1>about teef.dev</h1>
+        <p>What does 'teef' mean? Folks love to refer to me as 'T. Ford'(which is my name, hi). Over time, 'teeford' was
+            shortened to 'teef'. Cool Story.</p>
+        <footer style="text-align: center;">
+            <hr>
+            &copy; <span id="year"></span> <a href="/">teef</a>
+        </footer>
+
+    </div>
+    <script type="text/javascript">
+        var today = new Date();
+        var year = today.getFullYear();
+        document.getElementById("year").textContent = year;
+    </script>
+</body>
+</html>
