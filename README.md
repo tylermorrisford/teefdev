@@ -1,6 +1,6 @@
 # teefdev
 
-A very brief, sparse html page served by leiningen/httpkit/ring.
+A very sparse html page served by leiningen/httpkit/ring.
 
 
 ## License
