@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2BKBJJ498"></script>
@@ -13,53 +14,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>t.d</title>
     <base href="/">
     <style>
-        * {font-family: 'Raleway', sans-serif; line-height: 1.5;}
-        @media (max-width: 599px){
-        .centered {width: 85%; height:500px; margin: 50px auto 0;}
+        * {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.5;
         }
-        @media (min-width: 600px){
-        .centered {width: 60%; height:500px; margin: 50px auto 0;
-            text-align: justify;}
+
+        @media (max-width: 599px) {
+            .centered {
+                width: 85%;
+                height: 500px;
+                margin: 50px auto 0;
+            }
         }
-        a {color: #25536D}
-        h2{text-align: center; justify-items: center;}
-        hr {border: solid #ddd; border-width: 1px 0 0; margin: 30px auto}
-        .justify{text-align: justify;}
-        .titleLeft{display: grid; grid-template-columns: 1fr 2fr;}
-        .titleRight{display: grid; grid-template-columns: 2fr 1fr;}
+
+        @media (min-width: 600px) {
+            .centered {
+                width: 60%;
+                height: 500px;
+                margin: 50px auto 0;
+                text-align: justify;
+            }
+        }
+
+        a {
+            color: #25536D
+        }
+
+        h2 {
+            text-align: center;
+            justify-items: center;
+        }
+
+        hr {
+            border: solid #ddd;
+            border-width: 1px 0 0;
+            margin: 30px auto
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        .titleLeft {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        .titleRight {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
     </style>
 </head>
+
 <body>
     <div class="centered">
         <h1>teef.dev</h1>
-        <p>Yes, this is a pretty spare website - which is totally by design. I love the simplicity of the <a href="https://leiningen.org/">leinigen</a> site, and... imitation is the sincerest form of flattery, but also if I can't stop myself from buying domains I may as well have 40 personal web sites. So here's a 'bio', and then some very random thoughts.</p>
+        <p>Yes, this is a pretty spare website - which is totally by design. I love the simplicity of the <a
+                href="https://leiningen.org/">leinigen</a> site, and... imitation is the sincerest form of flattery, but
+            also if I can't stop myself from buying domains I may as well have 40 personal web sites. So here's a 'bio',
+            and then some very random thoughts.</p>
         <hr>
         <div class="titleLeft">
-            <div><h2>who?</h2></div>
-            <div class="justify">I'm a software engineer in salt lake city, working with <a href="https://commercetools.com">these amazing folks</a>. Other spots to see my work are <a href="https://thisapp.digital">thisapp.digital</a> (simple React.Js project), <a href="https://teef.blog">this blog</a> (uses GraphQL/Next.Js for headless Wordpress), this <a href="https://thestore.dev">goofy generic store</a> (Django/Vue.Js), and this slightly old-school <a href="https://tylerford.io/">bio</a> (jQuery!), which has links to other older projects, and a photo from when my hair was long(er. and less grey).
-            <p>The code for <em>this</em> site is <a href="https://github.com/tylermorrisford/teefdev">here</a>, but I'd argue most of the interesting stuff is in the nginx configuration. Unless you're into brutally minimal lein projects created by people who know very little about Clojure. But if you are, right on! let's hang out.</p></div>
+            <div>
+                <h2>who?</h2>
+            </div>
+            <div class="justify">I'm a software engineer in salt lake city, working with <a
+                    href="https://commercetools.com">these amazing folks</a>. Other spots to see my work are <a
+                    href="https://thisapp.digital">thisapp.digital</a> (simple React.Js project), <a
+                    href="https://teef.blog">this blog</a> (uses GraphQL/Next.Js for headless Wordpress), this <a
+                    href="https://thestore.dev">goofy generic store</a> (Django/Vue.Js), and this slightly old-school <a
+                    href="https://tylerford.io/">bio</a> (jQuery!), which has links to other older projects, and a photo
+                from when my hair was long(er. and less grey).
+                <p>The code for <em>this</em> site is <a href="https://github.com/tylermorrisford/teefdev">here</a>, but
+                    I'd argue most of the interesting stuff is in the nginx configuration. Unless you're into brutally
+                    minimal lein projects created by people who know very little about Clojure. But if you are, right
+                    on! let's hang out.</p>
+            </div>
         </div>
         <hr>
         <div class="titleRight">
-            <div class="justify"><strong>Adjustments</strong></span> 
-            <p>I'd say I'm "nearly onboarded" at my new gig, but the fun thing about software is that you'll never know everything. For my own brain, the question is 'do I know enough to A) keep the imposter syndrome at bay (no.) and/or B) keep the day-to-day existential fear pushed down into a manageable place (getting there!)'.</p><p>Hockey-wise, being able to watch Phil in a Knights jersey is amazing, the Penguins are an enigma to me yet again, and the Kraks are crushing it (with basically the same team they had last year!?). On that note, I'm working on my Ts chops, so I started on this <a href="https://tylermorrisford.github.io/todays-games-ts/">fan dashboard</a>, based on some really awesome work a couple folks did to document the existing nhl api, which is <a href="https://gitlab.com/dword4/nhlapi/-/tree/master">here</a>. Cheers!</p>
+            <div class="justify"><strong>Adjustments</strong></span>
+                <p>2023 has been a wild year as far as ups and downs. Dad and Grandpa died about two weeks apart. Dad
+                    was fighting numerous health challenges on quite a few fronts and Grandpa lived past 100 - the fact
+                    they both survived military service as pilots is honestly amazing. There's been a lot of good stuff
+                    this year, but as far as personally impactful events... it's losing those two &#128148;</p>
+                <p>Hockey-wise, I feel very spoiled that I had the opportunity to watch one of my favorite teams develop
+                    a style that absolutely dominated in the playoffs. Watching the Knights win was definitely a treat.
+                    On that note, I'm working on my Ts chops, so I'm tinkering on this <a
+                        href="https://tylermorrisford.github.io/todays-games-ts/">fan dashboard</a>, based on some
+                    really awesome work a couple folks did to document the existing nhl api, which is <a
+                        href="https://gitlab.com/dword4/nhlapi/-/tree/master">here</a>. Cheers!</p>
             </div>
-            <div><h2>random</h2></div>
+            <div>
+                <h2>random</h2>
+            </div>
         </div>
-        
+
         <footer style="text-align: center;">
             <hr>
-            &copy; <span id="year"></span> teef (a.k.a. tyler) | <a href="/about">about</a></footer>
+            &copy; <span id="year"></span> teef (a.k.a. tyler) | <a href="/about">about</a>
+        </footer>
     </div>
     <script type="text/javascript">
-    document.getElementById("year").textContent = new Date().getFullYear();
-    console.log("I'm basically not on social media but you can contact me at \n TYLERFORD - at - GMAIL - dot - com")    
+        document.getElementById("year").textContent = new Date().getFullYear();
+        console.log("I'm basically not on social media but you can contact me at \n TYLERFORD - at - GMAIL - dot - com")    
     </script>
 </body>
+
 </html>
