@@ -1,7 +1,7 @@
 # teefdev
 
-A very sparse html page served by leiningen/httpkit/ring.
+A very sparse bio served by leiningen/httpkit/ring.
 
 ## License
 
-Copyright © 2022
+Copyright © 2025
